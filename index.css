@@ -6,7 +6,7 @@
   background-color: #F25959;
 }
 
-.tab{
+.tab a{
   display block;
   color white;
   text-align: center;
@@ -17,7 +17,7 @@
   background-color: grey;
   }
 
-.active{
+.active a{
   background-color: cyan;
 }
   
