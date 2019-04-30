@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   overflow hidden;
-  background-color: #8CD5FF;
+  background-color: #F25959;
 }
 
-.tab{
+.tab a{
   display block;
   color white;
   text-align: center;
