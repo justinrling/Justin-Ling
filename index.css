@@ -7,6 +7,10 @@
 }
 
 .tab{
+  float: right;
+}
+
+.tab a{
   display: block;
   color: white;
   text-align: center;
