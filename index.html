@@ -6,11 +6,9 @@
   overflow: hidden;
   background-color: #0D4789;
 }
-
 .tab{
   float: right;
 }
-
 .tab a{
   display: block;
   color: white;
@@ -30,24 +28,32 @@ h1{
   margin: 10;
   font-family: "Trebuchet MS";
 }
-
 #dsc{
   text-align: center;
   font-family: "Trebuchet MS";
   font-style: italic;
   font-size: 20;
 }
-
 #headbar{
-  margin: 100;
+  position: absolute;
+  bottom: 250px;
+  top: 250px;
+  right:175px;
+  left:175px;
+  padding: 10px;
   border-style: solid;
-  box-shadow: 10px 10px;
-  
+  background-color: white;
 }
-
 #scu{
   width:960px;
 }
+hr{
+  position: absolute;
+  bottom: 340px;
+  width: 100%;
+  border: 1.5px solid black;
+  z-index: -1;
+
 </style>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -58,9 +64,12 @@ h1{
       <li class="tab"><a href="aboutme.html">About Me</a></li>
       <li class="tab"><a href="index.html">Home</a></li>
     </ul>
+    </head>
+    <body>
     <div id="headbar">
     <h1>Justin Ling</h1>
     <p id="dsc">Second-Year Student at Santa Clara University</p>
     </div>
-  </head>
+    <hr>
+    </body>
 </html>
