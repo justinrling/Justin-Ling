@@ -2,15 +2,15 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow hidden;
+  overflow: hidden;
   background-color: #F25959;
 }
 
 .tab a{
-  display block;
-  color white;
+  display: block;
+  color: white;
   text-align: center;
-  padding 14px 16px;
+  padding: 14px 16px;
   }
   
 .tab:hover:not(.active){
