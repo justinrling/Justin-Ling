@@ -1,0 +1,14 @@
+li{
+  float right;
+  }
+
+.nav{
+  display block;
+  color black;
+  padding 14px 16px;
+  }
+  
+.nav:hover{
+  background-color: grey;
+  }
+  
