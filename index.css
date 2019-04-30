@@ -1,7 +1,7 @@
-.nav {
+.nav a{
   float right;
 }
-.nav a{
+.nav{
   display block;
   color black;
   padding 14px 16px;
