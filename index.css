@@ -1,8 +1,5 @@
-li{
-  float right;
-  }
-
 .nav{
+  float right;
   display block;
   color black;
   padding 14px 16px;
