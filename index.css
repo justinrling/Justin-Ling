@@ -3,17 +3,17 @@
   margin: 0;
   padding: 0;
   overflow hidden;
-  background-color: #333;
+  background-color: 8CD5FF;
 }
 
-.tab a{
+li{
   display block;
   color white;
   text-align: center;
   padding 14px 16px;
   }
   
-.tab:hover{
+li:hover{
   background-color: grey;
   }
   
