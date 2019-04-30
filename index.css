@@ -17,11 +17,8 @@
   padding: 14px 16px;
   }
   
-.tab:hover:not(.active){
+.tab:hover{
   background-color: grey;
   }
 
-.active{
-  background-color: cyan;
-}
   
