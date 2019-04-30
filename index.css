@@ -6,14 +6,14 @@
   background-color: #F25959;
 }
 
-.tab a{
+.tab{
   display block;
   color white;
   text-align: center;
   padding 14px 16px;
   }
   
-.tab a:hover:not(.active){
+.tab:hover:not(.active){
   background-color: grey;
   }
 
