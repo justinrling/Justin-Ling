@@ -1,13 +1,19 @@
-.nav a{
-  float right;
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow hidden;
+  background-color: #333;
 }
-.nav{
+
+.tab a{
   display block;
-  color black;
+  color white;
+  text-align: center;
   padding 14px 16px;
   }
   
-.nav:hover{
+.tab:hover{
   background-color: grey;
   }
   
