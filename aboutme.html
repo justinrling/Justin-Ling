@@ -5,6 +5,7 @@
   padding-top: 0;
   overflow: hidden;
   background-color: #5B5B5B;
+  opacity: .8;
 }
 .tab{
   float: right;
@@ -21,9 +22,19 @@
 .tab:hover{
   background-color: #A9A9A9;
   }
+html, body {
+    margin: 0;
+}
+html{
+  background: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/16/197435/b376b9e0c104987a5d3fd36937c1c7fd.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 body{
   overflow: hidden;
-  opacity: .8;
+  background-color:rgba(255,255,255,0.2);
+  background-size: cover;
+  
 }
 #mtns{
   position: absolute;
@@ -32,6 +43,23 @@ body{
   height: 100%;
   right: 0;
   left: 0;
+}
+#block{
+  z-index: 1;
+  font-family: "Trebuchet MS";
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  background-color: #DCDCDC;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+h1{
+  font-size: 72px;
+  text-align: center;
+}
+h2{
+  padding-left: 15%;
 }
 </style>
 <!DOCTYPE HTML>
@@ -45,7 +73,10 @@ body{
     </ul>
     </head>
     <body>
-    
-    <img id="mtns" src="https://www.wallpaperup.com/uploads/wallpapers/2013/12/16/197435/b376b9e0c104987a5d3fd36937c1c7fd.jpg">
+    <div id="block">
+      <h1>Justin Ling</h1>
+      <h2>About:</h2>
+      <p>Hello! My name is Justin Ling and I am currently a sophomore Web Design and Engineering student minoring in Computer Engineering at Santa Clara University.</p>
+    </div>
     </body>
-</html>
+</html> 
