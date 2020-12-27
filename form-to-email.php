@@ -20,8 +20,12 @@ $email_body = "You have received a new message from: $name.\n"."email address: $
 $to = "jling@scu.edu";
 $headers = "From: $email_from \r\n";
 
+$headers .= "Reply-To: $email \r\n";
+
 //Send email
 mail($to,$email_subject,$email_body,$headers);
+
+header("Location: index.html");
 //done
 
 ?>
