@@ -144,7 +144,7 @@ footer {
 
 #experience,
 #education {
-  background: #E9724C;
+  background: #ffffff;
 }
 
 .background-image {
@@ -448,7 +448,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #experience .experience-img {
-  background: url('../images/Business_Hands.jpg') no-repeat;
+  background: url('../images/laptop1.jpg') no-repeat;
 }
 
 #experience .media-heading {
